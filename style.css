@@ -1,0 +1,131 @@
+/* General Website Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image:url('Strawberry.png');
+    
+}
+
+/* Headings */
+
+h1 {
+    color: #000000;
+    font-size: 42px;
+    text-align: center;
+}
+
+h2 {
+    color:  #000000;
+    text-align: center;
+}
+
+h3 {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+/* Navigation Links */
+
+a {
+    text-decoration: none;
+    color:  #000000;
+    font-weight: bold;
+    
+}
+
+.navbar a {
+    padding: 12px 18px;
+}
+
+a:hover {
+    color: #E96B91;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Video */
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Buttons */
+
+button {
+    background-color: #E96B91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #51352B;
+}
+.logo {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.navbar a {
+    padding-right: 20px;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.read-more {
+    text-align: center;
+    width: 100%;
+}
+
+.read-more a {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #FF0000;
+    padding: 15px 35px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.images img {
+    width: 33%;
+}
+
+video {
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    margin: 20px auto;
+}
